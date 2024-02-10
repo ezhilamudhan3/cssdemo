@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://media.licdn.com/dms/image/D4D12AQG03_cMJE7uIw/article-cover_image-shrink_720_1280/0/1685891111023?e=2147483647&v=beta&t=ApugyNhPbwf13VZN-Zv68y0iLnd_COOph8VMtvlH1Cw);
+    background-size: cover;
+    position: fixed;
+}
+nav{
+    background: rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 70px;
+}
+ul{
+    display: flex;
+    margin-left: 360px;
+    gap: 160px;
+   
+}
+ul li{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    cursor: pointer;
+}
+ul li:hover{
+    color: #6ef5ff;
+    font-size: 30px;
+}
+.digital{
+   text-align: center;
+   margin-top: 250px;
+   font-size: 30px;
+   font-family:'Times New Roman', Times, serif;
+   color: #18eacb;
+}
+.digital h1{
+    font-size: 50px;
+    color: rgb(81, 200, 255);
+    border-style: double;
+    border-color: black;
+}
+.digital button{
+    color:black;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: outset;
+    background-color: tomato;
+    border-radius: 30%;
+    
+}
+.digital button:hover{
+    color: blue;
+    font-size: large;
+}
